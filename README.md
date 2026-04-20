@@ -1,14 +1,12 @@
 # Projeto E-commerce Olist ML 🛍️
 
-Este repositório contém o ambiente de desenvolvimento para o projeto de Machine Learning.
+Este repositório contém o ambiente de desenvolvimento e as análises de Machine Learning aplicadas ao dataset da **Olist** (e-commerce brasileiro). O objetivo é explorar padrões de consumo e desenvolver modelos preditivos.
 
-## 🛠️ Configuração do Ambiente Virtual (.venv)
+## 🛠️ Configuração do Ambiente e Reprodutibilidade
 
-Para garantir o isolamento das bibliotecas e a reprodutibilidade do projeto, utilizamos o `.venv`.
+Como a pasta `.venv` não é enviada para o GitHub (por boas práticas de versionamento), siga os passos abaixo para reconstruir o ambiente localmente:
 
-### Passo a passo para criação:
-
-1. **Criação do ambiente:**
-   No terminal do VS Code, execute:
-   ```bash
-   python -m venv .venv
+### 1. Criação e Ativação do Ambiente:
+No terminal do VS Code, execute:
+```bash
+python -m venv .venv
